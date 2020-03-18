@@ -1,0 +1,7 @@
+{
+  "authentication_type": "jwt",
+  "guniflask_version": "0.6.0",
+  "jwt_secret": "abapjFRZIpKoTOlLYVqnzVsk36LHw_pGBng5ygBH9ls",
+  "port": 8020,
+  "project_name": "expandflow"
+}
