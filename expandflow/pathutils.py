@@ -36,3 +36,11 @@ class PathUtils(object):
     @create_if_not_exists
     def data_dir(self):
         return join(self.home_dir, ".expand_data")
+
+    @create_if_not_exists
+    def expand_data_dir(self, expand_token: str):
+        return join(self.data_dir, expand_token)
+
+    @create_if_not_exists
+    def expand_result_dir(self, expand_token: str):
+        return join(self.expand_data_dir(expand_token), 'result')
